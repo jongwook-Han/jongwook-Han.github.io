@@ -104,8 +104,8 @@ analytics:
 author:
   name             : "Jongwook Han"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Deep Learning. Computer Vision."
+  #location         : "Somewhere"
   email            :
   links:
     - label: "Email"
