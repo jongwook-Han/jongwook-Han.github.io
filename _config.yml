@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Jongwook Han"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/image/pikachu1.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Deep Learning. Computer Vision."
   #location         : "Somewhere"
   email            :
