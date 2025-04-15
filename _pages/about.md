@@ -2,33 +2,45 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: han_picture.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>PhD Student @<a href="https://yohanjo.github.io/" target="_blank">HOLI Lab</a></p>
+    <p>Seoul, South Korea</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+# announcements:
+#   enabled: true # includes a list of news items
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+#   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
+---
+I'm a PhD student at Seoul National University, Graduate School of Data Science, where I am advised by <a href="https://yohanjo.github.io/" target="_blank">Prof. Yohan Jo</a>. I'm interested in value-alignment in LLMs, and mechanistic interpretability. I received a M.S in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) and a B.S in Integrated Technology from Yonsei University.
+
+### Contact
+- 📧: johnhan00[at]snu.ac.kr
+
+### Research Interests
+- Value-alignment in LLMs
+- Mechanistic Interpretability
+- Pluralistic-values in LLMs
+
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+### Preprints
+- **Value Portrait: Understanding Values of LLMs with Human-aligned Benchmark**  
+  Jongwook Han, Dongmin Choi, Woojung Song, Eun-Ju Lee, Yohan Jo
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+- **PVP: An Image Dataset for Personalized Visual Persuasion with Persuasiveness Ratings, Persuasion Strategies, and Viewer Characteristics**  [<a href="/assets/pdf/pvp.pdf" target="_blank">PDF</a>]<br>
+  Junseo Kim, Jongwook Han, Dongmin Choi, Jongwook Yoon, Eun-Ju Lee, Yohan Jo
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
