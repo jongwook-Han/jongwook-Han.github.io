@@ -38,7 +38,7 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 ---
 
 ### Preprints
-- **Value Portrait: Understanding Values of LLMs with Human-aligned Benchmark**  
+- **Value Portrait: Understanding Values of LLMs with Human-aligned Benchmark** [<a href="/assets/pdf/Value_Portrait.pdf" target="_blank">PDF</a>]<br>
   **Jongwook Han**\*, Dongmin Choi\*, Woojung Song\*, Eun-Ju Lee, Yohan Jo  
   <span style="color: gray; font-style: italic;">Under Review</span>
 - **PVP: An Image Dataset for Personalized Visual Persuasion with Persuasiveness Ratings, Persuasion Strategies, and Viewer Characteristics** [<a href="/assets/pdf/pvp.pdf" target="_blank">PDF</a>]<br>
