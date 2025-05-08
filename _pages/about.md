@@ -29,7 +29,7 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 
 ### Contact
 - 📧: johnhan00[at]snu.ac.kr
-- LinkedIn <a href="https://www.linkedin.com/in/jongwook-han-05925a167" target="_blank">
+- <a href="https://www.linkedin.com/in/jongwook-han-05925a167" target="_blank"> LinkedIn</a>
 
 ### Research Interests
 - Value-alignment in LLMs
