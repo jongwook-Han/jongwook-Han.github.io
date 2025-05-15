@@ -36,11 +36,11 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 - Mechanistic Interpretability
 - Pluralistic-values in LLMs
 
-### Preprints
+### Publications
 - **Value Portrait: Understanding Values of LLMs with Human-aligned Benchmark** [<a href="https://arxiv.org/abs/2505.01015" target="_blank">arXiv</a>]<br>
   **Jongwook Han**\*, Dongmin Choi\*, Woojung Song\*, Eun-Ju Lee, Yohan Jo  
-  <span style="color: gray; font-style: italic;">Under Review</span>
+  <span style="color: gray; font-style: italic;">Accepted to ACL 2025 Main</span>
 - **PVP: An Image Dataset for Personalized Visual Persuasion with Persuasiveness Ratings, Persuasion Strategies, and Viewer Characteristics** [<a href="/assets/pdf/pvp.pdf" target="_blank">PDF</a>]<br>
   Junseo Kim, **Jongwook Han**, Dongmin Choi, Jongwook Yoon, Eun-Ju Lee, Yohan Jo  
-  <span style="color: gray; font-style: italic;">Under Review</span>
+  <span style="color: gray; font-style: italic;">Accepted to ACL 2025 Main</span>
 
