@@ -37,7 +37,7 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 - Pluralistic-values in LLMs
 
 ### Publications
-- **Value Portrait: Understanding Values of LLMs with Human-aligned Benchmark** [<a href="https://arxiv.org/abs/2505.01015" target="_blank">arXiv</a>]<br>
+- **Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items** [<a href="https://arxiv.org/abs/2505.01015" target="_blank">arXiv</a>]<br>
   **Jongwook Han**\*, Dongmin Choi\*, Woojung Song\*, Eun-Ju Lee, Yohan Jo  
   <span style="color: gray; font-style: italic;">Accepted to ACL 2025 Main</span>
 - **PVP: An Image Dataset for Personalized Visual Persuasion with Persuasiveness Ratings, Persuasion Strategies, and Viewer Characteristics** [<a href="https://arxiv.org/pdf/2506.00481" target="_blank">arXiv</a>]<br>
