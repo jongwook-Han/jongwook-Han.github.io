@@ -37,10 +37,10 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 - Pluralistic-values in LLMs
 
 ### Publications
-- **Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items** [<a href="https://arxiv.org/abs/2505.01015" target="_blank">arXiv</a>]<br>
+- **Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items** [<a href="https://aclanthology.org/2025.acl-long.838/" target="_blank">Paper</a> | <a href="https://drive.google.com/file/d/1gdIEK4bLjP25zelWDT-XyrQJCYaClyDl/view?usp=sharing" target="_blank">Video</a> | <a href="https://drive.google.com/file/d/1uaeVE_ltxdULOdDkvc1leRgn4_rYPX9_/view?usp=drive_link" target="_blank">Poster</a>]<br>
   **Jongwook Han**\*, Dongmin Choi\*, Woojung Song\*, Eun-Ju Lee, Yohan Jo  
   <span style="color: gray; font-style: italic;">Accepted to ACL 2025 Main</span>
-- **PVP: An Image Dataset for Personalized Visual Persuasion with Persuasiveness Ratings, Persuasion Strategies, and Viewer Characteristics** [<a href="https://arxiv.org/pdf/2506.00481" target="_blank">arXiv</a>]<br>
+- **PVP: An Image Dataset for Personalized Visual Persuasion with Persuasiveness Ratings, Persuasion Strategies, and Viewer Characteristics** [<a href="https://aclanthology.org/2025.acl-long.942/" target="_blank">Paper</a> | <a href="https://drive.google.com/file/d/1UjAlkwR1enSXlGw7vUz-0ByOk482DVEi/view?usp=drive_link" target="_blank">Poster</a>]<br>
   Junseo Kim, **Jongwook Han**, Dongmin Choi, Jongwook Yoon, Eun-Ju Lee, Yohan Jo  
   <span style="color: gray; font-style: italic;">Accepted to ACL 2025 Main</span>
 
