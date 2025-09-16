@@ -39,8 +39,13 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 ### Publications
 - **Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items** [<a href="https://aclanthology.org/2025.acl-long.838/" target="_blank">Paper</a> | <a href="https://drive.google.com/file/d/1gdIEK4bLjP25zelWDT-XyrQJCYaClyDl/view?usp=sharing" target="_blank">Video</a> | <a href="https://drive.google.com/file/d/1uaeVE_ltxdULOdDkvc1leRgn4_rYPX9_/view?usp=drive_link" target="_blank">Poster</a>]<br>
   **Jongwook Han**\*, Dongmin Choi\*, Woojung Song\*, Eun-Ju Lee, Yohan Jo  
-  <span style="color: gray; font-style: italic;">Accepted to ACL 2025 Main</span>
+  <span style="color: gray; font-style: italic;">[ACL] Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025</span>
 - **PVP: An Image Dataset for Personalized Visual Persuasion with Persuasiveness Ratings, Persuasion Strategies, and Viewer Characteristics** [<a href="https://aclanthology.org/2025.acl-long.942/" target="_blank">Paper</a> | <a href="https://drive.google.com/file/d/1UjAlkwR1enSXlGw7vUz-0ByOk482DVEi/view?usp=drive_link" target="_blank">Poster</a>]<br>
   Junseo Kim, **Jongwook Han**, Dongmin Choi, Jongwook Yoon, Eun-Ju Lee, Yohan Jo  
-  <span style="color: gray; font-style: italic;">Accepted to ACL 2025 Main</span>
+  <span style="color: gray; font-style: italic;">[ACL] Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025</span>
 
+### Preprints
+- **Established Psychometric vs. Ecologically Valid Questionnaires: Rethinking Psychological Assessments in Large Language Models** [<a href="https://arxiv.org/abs/2509.10078" target=" blank">arXiv</a>]<br>
+  Dongmin Choi, Woojung Song, **Jongwook Han**, Eun-Ju Lee, Yohan Jo
+  <span style="color: gray; font-style: italic;">Under Review</span>
+  
