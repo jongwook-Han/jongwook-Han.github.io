@@ -46,6 +46,6 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 
 ### Preprints
 - **Established Psychometric vs. Ecologically Valid Questionnaires: Rethinking Psychological Assessments in Large Language Models** [<a href="https://arxiv.org/abs/2509.10078" target=" blank">arXiv</a>]<br>
-  Dongmin Choi, Woojung Song, **Jongwook Han**, Eun-Ju Lee, Yohan Jo
+  Dongmin Choi, Woojung Song, **Jongwook Han**, Eun-Ju Lee, Yohan Jo  
   <span style="color: gray; font-style: italic;">Under Review</span>
   
