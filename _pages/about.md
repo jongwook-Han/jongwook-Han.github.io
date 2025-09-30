@@ -48,4 +48,11 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 - **Established Psychometric vs. Ecologically Valid Questionnaires: Rethinking Psychological Assessments in Large Language Models** [<a href="https://arxiv.org/abs/2509.10078" target=" blank">arXiv</a>]<br>
   Dongmin Choi, Woojung Song, **Jongwook Han**, Eun-Ju Lee, Yohan Jo  
   <span style="color: gray; font-style: italic;">Under Review</span>
-  
+- **Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in LLMs** [<a href="https://arxiv.org/abs/2509.24319" target=" blank">arXiv</a>]<br>
+  **Jongwook Han**\*, Jongwon Lim\*, Injin Kong, Yohan Jo  
+  <span style="color: gray; font-style: italic;">Under Review</span>
+
+### Workshops
+- **Dual Mechanisms of Value Expression: Decomposing Intrinsic and Prompted Values in Language Models** [<a href="https://openreview.net/forum?id=0fxch5C1nc" target=" blank">openreview</a>]<br>
+  **Jongwook Han**\*, Jongwon Lim\*, Injin Kong, Yohan Jo  
+  <span style="color: gray; font-style: italic;">Mechanistic Interpretability Workshop at NeurIPS 2025</span>
