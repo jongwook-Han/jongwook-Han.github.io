@@ -51,6 +51,12 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 - **Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in LLMs** [<a href="https://arxiv.org/abs/2509.24319" target=" blank">arXiv</a>]<br>
   **Jongwook Han**\*, Jongwon Lim\*, Injin Kong, Yohan Jo  
   <span style="color: gray; font-style: italic;">Under Review</span>
+- **Quantifying Data Contamination in Psychometric Evaluations of LLMs** [<a href="https://arxiv.org/abs/2510.07175" target=" blank">arXiv</a>]<br>
+  **Jongwook Han**\*, Woojung Song\*, Jonggeun Lee\*, Yohan Jo  
+  <span style="color: gray; font-style: italic;">Under Review</span>
+- **Don't Adapt Small Language Models for Tools; Adapt Tool Schemas to the Models** [<a href="https://arxiv.org/abs/2510.07248" target=" blank">arXiv</a>]<br>
+  Jonggeun Lee\*, Woojung Song\*, **Jongwook Han**\*, Haesung Pyun, Yohan Jo  
+  <span style="color: gray; font-style: italic;">Under Review</span>
 
 ### Workshops
 - **Dual Mechanisms of Value Expression: Decomposing Intrinsic and Prompted Values in Language Models** [<a href="https://openreview.net/forum?id=0fxch5C1nc" target=" blank">openreview</a>]<br>
