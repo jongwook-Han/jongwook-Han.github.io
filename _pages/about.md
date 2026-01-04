@@ -30,6 +30,7 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 ### Contact
 - 📧: johnhan00[at]snu.ac.kr
 - <a href="https://www.linkedin.com/in/jongwook-han-05925a167" target="_blank"> LinkedIn</a>
+- <a href="https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en&oi=ao" target="_blank"> Scholar</a>
 
 ### Research Interests
 - Value-alignment in LLMs
@@ -37,6 +38,9 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 - Pluralistic-values in LLMs
 
 ### Publications
+- **Quantifying Data Contamination in Psychometric Evaluations of LLMs** [<a href="https://arxiv.org/abs/2510.07175" target=" blank">arXiv</a>]<br>
+  **Jongwook Han**\*, Woojung Song\*, Jonggeun Lee\*, Yohan Jo  
+  <span style="color: gray; font-style: italic;">[EACL-Findings] Findings of the Association for Computational Linguistics: EACL, 2026 (To Appear)</span>
 - **Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items** [<a href="https://aclanthology.org/2025.acl-long.838/" target="_blank">Paper</a> | <a href="https://drive.google.com/file/d/1gdIEK4bLjP25zelWDT-XyrQJCYaClyDl/view?usp=sharing" target="_blank">Video</a> | <a href="https://drive.google.com/file/d/1uaeVE_ltxdULOdDkvc1leRgn4_rYPX9_/view?usp=drive_link" target="_blank">Poster</a>]<br>
   **Jongwook Han**\*, Dongmin Choi\*, Woojung Song\*, Eun-Ju Lee, Yohan Jo  
   <span style="color: gray; font-style: italic;">[ACL] Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025</span>
@@ -50,9 +54,6 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
   <span style="color: gray; font-style: italic;">Under Review</span>
 - **Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in LLMs** [<a href="https://arxiv.org/abs/2509.24319" target=" blank">arXiv</a>]<br>
   **Jongwook Han**\*, Jongwon Lim\*, Injin Kong, Yohan Jo  
-  <span style="color: gray; font-style: italic;">Under Review</span>
-- **Quantifying Data Contamination in Psychometric Evaluations of LLMs** [<a href="https://arxiv.org/abs/2510.07175" target=" blank">arXiv</a>]<br>
-  **Jongwook Han**\*, Woojung Song\*, Jonggeun Lee\*, Yohan Jo  
   <span style="color: gray; font-style: italic;">Under Review</span>
 - **Don't Adapt Small Language Models for Tools; Adapt Tool Schemas to the Models** [<a href="https://arxiv.org/abs/2510.07248" target=" blank">arXiv</a>]<br>
   Jonggeun Lee\*, Woojung Song\*, **Jongwook Han**\*, Haesung Pyun, Yohan Jo  
