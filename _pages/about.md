@@ -39,7 +39,7 @@ I'm a PhD student at Seoul National University, Graduate School of Data Science,
 
 ### Publications
 - **Don't Adapt Small Language Models for Tools; Adapt Tool Schemas to the Models** [<a href="https://arxiv.org/abs/2510.07248" target=" blank">arXiv</a>]<br>
-  Jonggeun Lee\*, Woojung Song\*, **Jongwook Han**\*, Haesung Pyun, Yohan Jo  
+  Jonggeun Lee\*, Woojung Song\*, **Jongwook Han**, Haesung Pyun, Yohan Jo  
   <span style="color: gray; font-style: italic;">[ACL] Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, 2026</span>
 - **Quantifying Data Contamination in Psychometric Evaluations of LLMs** [<a href="https://aclanthology.org/2026.findings-eacl.319/" target=" blank">Paper</a>]<br>
   **Jongwook Han**\*, Woojung Song\*, Jonggeun Lee\*, Yohan Jo  
