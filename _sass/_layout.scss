@@ -92,7 +92,7 @@ body .navbar {
     order: 2;
     float: none !important;
     margin: 0 !important;
-    padding: 1rem;
+    padding: 0.85rem;
     border: 1px solid var(--global-divider-color);
     border-radius: 1.6rem;
     background: var(--global-card-bg-color);
@@ -103,14 +103,23 @@ body .navbar {
     }
 
     .more-info {
-      margin-top: 1rem;
+      margin-top: 0.85rem;
       font-family: "Manrope", sans-serif;
       font-size: 0.95rem;
       color: var(--global-text-color-light);
+      line-height: 1.45;
 
       p {
         display: block;
-        margin-bottom: 0.3rem;
+        margin-bottom: 0.25rem;
+      }
+
+      .profile-advisor {
+        font-weight: 600;
+      }
+
+      .profile-location {
+        margin-bottom: 0;
       }
     }
   }
@@ -416,7 +425,7 @@ body .navbar {
 @media (min-width: 992px) {
   .about-page {
     .about-shell {
-      grid-template-columns: minmax(0, 1fr) minmax(280px, 320px);
+      grid-template-columns: minmax(0, 1fr) minmax(340px, 390px);
     }
 
     .profile {

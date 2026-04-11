@@ -9,11 +9,8 @@ profile:
   image: han_picture.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Advised by <a href="https://yohanjo.github.io/" target="_blank">Prof. Yohan Jo</a></p>
-    <p>HOLI Lab</p>
-    <p>Graduate School of Data Science</p>
-    <p>Seoul National University</p>
-    <p>Seoul, South Korea</p>
+    <p class="profile-advisor">Advised by <a href="https://yohanjo.github.io/" target="_blank">Prof. Yohan Jo</a></p>
+    <p class="profile-location">Seoul, South Korea</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -52,7 +49,7 @@ social: true # includes social icons at the bottom of the page
   <div class="home-signal-grid">
     <div class="home-signal">
       <span class="home-signal__label">Current</span>
-      <strong class="home-signal__value">HOLI Lab, Graduate School of Data Science</strong>
+      <strong class="home-signal__value">HOLI Lab, Graduate School of Data Science, Seoul National University</strong>
     </div>
     <div class="home-signal">
       <span class="home-signal__label">Focus</span>
