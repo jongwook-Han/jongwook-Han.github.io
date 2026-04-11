@@ -52,15 +52,15 @@ social: true # includes social icons at the bottom of the page
   <div class="home-signal-grid">
     <div class="home-signal">
       <span class="home-signal__label">Current</span>
-      <strong class="home-signal__value">PhD Student at Seoul National University</strong>
+      <strong class="home-signal__value">HOLI Lab, Graduate School of Data Science</strong>
     </div>
     <div class="home-signal">
       <span class="home-signal__label">Focus</span>
-      <strong class="home-signal__value">Pluralistic value alignment and LLM evaluation</strong>
+      <strong class="home-signal__value">Value alignment, evaluation, and behavior in LLMs</strong>
     </div>
     <div class="home-signal">
-      <span class="home-signal__label">Updates</span>
-      <a class="home-signal__link" href="https://x.com/jwhansnu" target="_blank">@jwhansnu on X</a>
+      <span class="home-signal__label">Base</span>
+      <strong class="home-signal__value">Seoul, South Korea</strong>
     </div>
   </div>
 </section>
