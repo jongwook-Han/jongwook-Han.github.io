@@ -2,18 +2,21 @@
 layout: about
 title: about
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student, Graduate School of Data Science, Seoul National University
 
 profile:
   align: right
   image: han_picture.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>PhD Student @<a href="https://yohanjo.github.io/" target="_blank">HOLI Lab</a></p>
+    <p>Advised by <a href="https://yohanjo.github.io/" target="_blank">Prof. Yohan Jo</a></p>
+    <p>HOLI Lab</p>
+    <p>Graduate School of Data Science</p>
+    <p>Seoul National University</p>
     <p>Seoul, South Korea</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 
 # announcements:
 #   enabled: true # includes a list of news items
@@ -25,42 +28,73 @@ social: false # includes social icons at the bottom of the page
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
-I'm a PhD student at Seoul National University, Graduate School of Data Science, where I am advised by <a href="https://yohanjo.github.io/" target="_blank">Prof. Yohan Jo</a>. I'm interested in pluralistic value-alignment in LLMs. I received a M.S in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) and a B.S in Integrated Technology from Yonsei University.
+<section class="home-hero">
+  <p class="home-kicker">Pluralistic value alignment, psychometric evaluation, and LLM behavior</p>
+  <div class="home-lead">
+    <p>I'm a PhD student at Seoul National University, where I work with <a href="https://yohanjo.github.io/" target="_blank">Prof. Yohan Jo</a> on how language models represent, express, and can be aligned with diverse human values.</p>
+    <p>My recent work studies pluralistic value alignment, contamination in psychometric evaluation, and the difference between prompted and intrinsic value expression in LLMs.</p>
+  </div>
+  <div class="home-actions">
+    <a class="home-button" href="{{ '/publications/' | relative_url }}">View publications</a>
+    <a class="home-button home-button-secondary" href="https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
+    <a class="home-button home-button-secondary" href="mailto:johnhan00@snu.ac.kr">Email</a>
+  </div>
+</section>
 
-### Contact
-- 📧: johnhan00[at]snu.ac.kr
-- 💼: <a href="https://www.linkedin.com/in/jongwook-han-05925a167" target="_blank"> LinkedIn</a>
-- 📚: <a href="https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en&oi=ao" target="_blank"> Scholar</a>
-- 𝕏: <a href="https://x.com/jwhansnu" target="_blank"> Twitter</a>
+<div class="home-panels">
+  <section class="home-panel">
+    <h2>Research Focus</h2>
+    <ul class="home-list">
+      <li>Pluralistic value alignment for language models</li>
+      <li>Psychometric and behavioral evaluation of LLMs</li>
+      <li>Prompted versus intrinsic value expression in LLMs</li>
+    </ul>
+  </section>
+  <section class="home-panel">
+    <h2>Background</h2>
+    <ul class="home-list">
+      <li>PhD student, Seoul National University</li>
+      <li>M.S. in Electrical Engineering, KAIST</li>
+      <li>B.S. in Integrated Technology, Yonsei University</li>
+    </ul>
+  </section>
+</div>
 
-### Research Interests
-- Pluralistic-values in LLMs
-- Value-alignment in LLMs
+<section class="home-section">
+  <h2>Recent Work</h2>
+  <div class="home-highlights">
+    <article class="home-highlight">
+      <span class="home-highlight__meta">ACL 2026</span>
+      <h3>Tool use without over-adapting small language models</h3>
+      <p>Studied how adapting tool schemas to model behavior can outperform directly adapting small language models for tool use.</p>
+    </article>
+    <article class="home-highlight">
+      <span class="home-highlight__meta">EACL Findings 2026</span>
+      <h3>Contamination in psychometric LLM evaluation</h3>
+      <p>Quantified how data contamination can distort psychometric evaluations of language models and their reported psychological traits.</p>
+    </article>
+    <article class="home-highlight">
+      <span class="home-highlight__meta">ACL 2025</span>
+      <h3>Value Portrait</h3>
+      <p>Introduced a psychometrically grounded framework for assessing language model values with ecologically valid items.</p>
+    </article>
+  </div>
+</section>
 
-### Publications
-- **Don't Adapt Small Language Models for Tools; Adapt Tool Schemas to the Models** [<a href="https://arxiv.org/abs/2510.07248" target=" blank">arXiv</a>]<br>
-  Jonggeun Lee\*, Woojung Song\*, **Jongwook Han**, Haesung Pyun, Yohan Jo  
-  <span style="color: gray; font-style: italic;">[ACL] Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, 2026</span>
-- **Quantifying Data Contamination in Psychometric Evaluations of LLMs** [<a href="https://aclanthology.org/2026.findings-eacl.319/" target=" blank">Paper</a>]<br>
-  **Jongwook Han**\*, Woojung Song\*, Jonggeun Lee\*, Yohan Jo  
-  <span style="color: gray; font-style: italic;">[EACL-Findings] Findings of the Association for Computational Linguistics: EACL, 2026</span>
-- **Value Portrait: Assessing Language Models' Values through Psychometrically and Ecologically Valid Items** [<a href="https://aclanthology.org/2025.acl-long.838/" target="_blank">Paper</a> | <a href="https://drive.google.com/file/d/1gdIEK4bLjP25zelWDT-XyrQJCYaClyDl/view?usp=sharing" target="_blank">Video</a> | <a href="https://drive.google.com/file/d/1uaeVE_ltxdULOdDkvc1leRgn4_rYPX9_/view?usp=drive_link" target="_blank">Poster</a>]<br>
-  **Jongwook Han**\*, Dongmin Choi\*, Woojung Song\*, Eun-Ju Lee, Yohan Jo  
-  <span style="color: gray; font-style: italic;">[ACL] Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025</span>
-- **PVP: An Image Dataset for Personalized Visual Persuasion with Persuasiveness Ratings, Persuasion Strategies, and Viewer Characteristics** [<a href="https://aclanthology.org/2025.acl-long.942/" target="_blank">Paper</a> | <a href="https://drive.google.com/file/d/1UjAlkwR1enSXlGw7vUz-0ByOk482DVEi/view?usp=drive_link" target="_blank">Poster</a>]<br>
-  Junseo Kim, **Jongwook Han**, Dongmin Choi, Jongwook Yoon, Eun-Ju Lee, Yohan Jo  
-  <span style="color: gray; font-style: italic;">[ACL] Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics, 2025</span>
-
-### Preprints
-- **Human Psychometric Questionnaires Mischaracterize LLM Psychology: Evidence from Generation Behavior** [<a href="https://arxiv.org/abs/2509.10078" target=" blank">arXiv</a>]<br>
-  Woojung Song, Dongmin Choi, Yoonah Park, **Jongwook Han**, Yohan Jo  
-  <span style="color: gray; font-style: italic;">Under Review</span>
-- **Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in LLMs** [<a href="https://arxiv.org/abs/2509.24319" target=" blank">arXiv</a>]<br>
-  **Jongwook Han**\*, Jongwon Lim\*, Injin Kong, Yohan Jo  
-  <span style="color: gray; font-style: italic;">Under Review</span>
-
-
-### Workshops
-- **Dual Mechanisms of Value Expression: Decomposing Intrinsic and Prompted Values in Language Models** [<a href="https://openreview.net/forum?id=0fxch5C1nc" target=" blank">openreview</a>]<br>
-  **Jongwook Han**\*, Jongwon Lim\*, Injin Kong, Yohan Jo  
-  <span style="color: gray; font-style: italic;">Mechanistic Interpretability Workshop at NeurIPS 2025</span>
+<section class="home-section">
+  <h2>Contact</h2>
+  <div class="home-contact-grid">
+    <a class="home-contact-card" href="mailto:johnhan00@snu.ac.kr">
+      <span class="home-contact-card__label">Email</span>
+      <strong>johnhan00@snu.ac.kr</strong>
+    </a>
+    <a class="home-contact-card" href="https://www.linkedin.com/in/jongwook-han-05925a167" target="_blank">
+      <span class="home-contact-card__label">LinkedIn</span>
+      <strong>jongwook-han-05925a167</strong>
+    </a>
+    <a class="home-contact-card" href="https://x.com/jwhansnu" target="_blank">
+      <span class="home-contact-card__label">X</span>
+      <strong>@jwhansnu</strong>
+    </a>
+  </div>
+</section>

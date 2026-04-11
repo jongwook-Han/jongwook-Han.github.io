@@ -6,6 +6,19 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  background-image:
+    radial-gradient(circle at top left, var(--global-page-accent-1), transparent 28%),
+    radial-gradient(circle at 85% 10%, var(--global-page-accent-2), transparent 24%);
+  background-attachment: fixed;
+  font-family: "Manrope", sans-serif;
+
+  p,
+  li,
+  table,
+  .nav-link {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
 
   h1,
   h2,
@@ -13,6 +26,8 @@ body {
   h4,
   h5,
   h6 {
+    font-family: "Fraunces", serif;
+    letter-spacing: -0.02em;
     scroll-margin-top: 66px;
   }
 }
@@ -33,8 +48,290 @@ body.sticky-bottom-footer {
 
 // Profile
 .profile {
+  width: 100%;
+
   img {
     width: 100%;
+  }
+}
+
+body .navbar {
+  backdrop-filter: blur(14px);
+  background-color: var(--global-surface-muted);
+}
+
+.post {
+  .post-header {
+    margin-bottom: 2rem;
+  }
+
+  .post-title {
+    font-size: clamp(2.6rem, 5vw, 4rem);
+    line-height: 1.05;
+  }
+
+  .desc {
+    max-width: 46rem;
+    color: var(--global-text-color-light);
+    font-size: 1.05rem;
+  }
+}
+
+.about-page {
+  .about-shell {
+    display: grid;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .about-content {
+    min-width: 0;
+  }
+
+  .profile {
+    order: 2;
+    float: none !important;
+    margin: 0 !important;
+    padding: 1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 1.6rem;
+    background: var(--global-card-bg-color);
+    box-shadow: 0 24px 48px -28px var(--global-shadow-color);
+
+    .img-fluid {
+      border-radius: 1.1rem !important;
+    }
+
+    .more-info {
+      margin-top: 1rem;
+      font-family: "Manrope", sans-serif;
+      font-size: 0.95rem;
+      color: var(--global-text-color-light);
+
+      p {
+        display: block;
+        margin-bottom: 0.3rem;
+      }
+    }
+  }
+
+  .social {
+    margin-top: 2rem;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 1.3rem;
+    background: var(--global-card-bg-color);
+    box-shadow: 0 18px 36px -28px var(--global-shadow-color);
+
+    .contact-icons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      font-size: 1.35rem;
+    }
+
+    .contact-note {
+      margin-top: 0.8rem;
+      color: var(--global-text-color-light);
+      font-size: 0.95rem;
+    }
+  }
+}
+
+.home-hero,
+.home-panel,
+.home-highlight,
+.home-contact-card,
+.bibsearch-form-input,
+.publications .bibliography > li {
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-card-bg-color);
+  box-shadow: 0 18px 36px -28px var(--global-shadow-color);
+}
+
+.home-hero {
+  padding: 2rem;
+  border-radius: 1.8rem;
+  background:
+    linear-gradient(135deg, var(--global-card-bg-color) 0%, var(--global-surface-muted) 100%);
+}
+
+.home-kicker {
+  margin-bottom: 0.9rem;
+  color: var(--global-theme-color);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.home-lead p {
+  max-width: 44rem;
+  font-size: 1.08rem;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.72rem 1.15rem;
+  border-radius: 999px;
+  background: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  color: #fff !important;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    background-color 0.18s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 14px 28px -20px var(--global-shadow-color);
+    text-decoration: none !important;
+  }
+}
+
+.home-button-secondary {
+  background: transparent;
+  border-color: var(--global-divider-color);
+  color: var(--global-text-color) !important;
+}
+
+.home-panels,
+.home-highlights,
+.home-contact-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.home-panels {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1.5rem 0;
+}
+
+.home-panel,
+.home-highlight,
+.home-contact-card {
+  padding: 1.3rem 1.4rem;
+  border-radius: 1.3rem;
+}
+
+.home-panel h2,
+.home-section h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.45rem;
+}
+
+.home-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.home-section {
+  margin-top: 2rem;
+}
+
+.home-highlights {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.home-highlight h3 {
+  margin: 0.4rem 0 0.7rem;
+  font-size: 1.15rem;
+}
+
+.home-highlight__meta {
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.home-contact-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.home-contact-card {
+  display: block;
+  text-decoration: none !important;
+}
+
+.home-contact-card__label {
+  display: block;
+  color: var(--global-text-color-light);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.home-contact-card strong {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 1rem;
+}
+
+.bibsearch-form-input {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 0.8rem 1rem;
+  border-radius: 999px;
+  color: var(--global-text-color);
+}
+
+.publications {
+  .bibliography {
+    padding-left: 0;
+  }
+
+  .bibliography > li {
+    list-style: none;
+    margin-bottom: 1.3rem;
+    padding: 1.35rem;
+    border-radius: 1.3rem;
+  }
+
+  .links {
+    gap: 0.35rem;
+  }
+
+  .links .btn {
+    margin-top: 0.45rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    color: var(--global-theme-color);
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-page {
+    .about-shell {
+      grid-template-columns: minmax(0, 1fr) minmax(280px, 320px);
+    }
+
+    .profile {
+      position: sticky;
+      top: 86px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .home-panels,
+  .home-highlights,
+  .home-contact-grid {
+    grid-template-columns: 1fr;
   }
 }
 
