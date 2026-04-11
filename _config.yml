@@ -14,7 +14,7 @@ footer_text: >
   Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and deployed on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: jongwook han, pluralistic value alignment, llm evaluation, psychometrics, nlp
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: JH # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: pikachu_favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jongwook-han.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

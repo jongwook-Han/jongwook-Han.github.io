@@ -230,6 +230,14 @@ body .navbar {
   color: var(--global-text-color) !important;
 }
 
+.home-button-icon {
+  gap: 0.5rem;
+
+  i {
+    font-size: 1rem;
+  }
+}
+
 .home-signal-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -336,10 +344,24 @@ body .navbar {
 }
 
 .home-contact-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
   text-decoration: none !important;
   background:
     linear-gradient(180deg, var(--global-card-bg-color) 0%, var(--global-surface-muted) 100%);
+}
+
+.home-contact-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 999px;
+  background: rgba(15, 118, 110, 0.1);
+  color: var(--global-theme-color);
+  font-size: 1.15rem;
 }
 
 .home-contact-card__label {
@@ -353,7 +375,6 @@ body .navbar {
 
 .home-contact-card strong {
   display: block;
-  margin-top: 0.35rem;
   font-size: 1rem;
 }
 

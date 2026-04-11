@@ -36,9 +36,18 @@ social: true # includes social icons at the bottom of the page
   </div>
   <div class="home-actions">
     <a class="home-button" href="{{ '/publications/' | relative_url }}">View publications</a>
-    <a class="home-button home-button-secondary" href="https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
-    <a class="home-button home-button-secondary" href="mailto:johnhan00@snu.ac.kr">Email</a>
-    <a class="home-button home-button-secondary" href="https://x.com/jwhansnu" target="_blank">X / @jwhansnu</a>
+    <a class="home-button home-button-secondary home-button-icon" href="mailto:johnhan00@snu.ac.kr" aria-label="Email">
+      <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+      <span>Email</span>
+    </a>
+    <a class="home-button home-button-secondary home-button-icon" href="https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en&oi=ao" target="_blank" aria-label="Google Scholar">
+      <i class="ai ai-google-scholar" aria-hidden="true"></i>
+      <span>Scholar</span>
+    </a>
+    <a class="home-button home-button-secondary home-button-icon" href="https://x.com/jwhansnu" target="_blank" aria-label="X">
+      <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+      <span>X</span>
+    </a>
   </div>
   <div class="home-signal-grid">
     <div class="home-signal">
@@ -99,14 +108,17 @@ social: true # includes social icons at the bottom of the page
   <h2>Contact</h2>
   <div class="home-contact-grid">
     <a class="home-contact-card" href="mailto:johnhan00@snu.ac.kr">
+      <span class="home-contact-card__icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></span>
       <span class="home-contact-card__label">Email</span>
       <strong>johnhan00@snu.ac.kr</strong>
     </a>
-    <a class="home-contact-card" href="https://www.linkedin.com/in/jongwook-han-05925a167" target="_blank">
-      <span class="home-contact-card__label">LinkedIn</span>
-      <strong>jongwook-han-05925a167</strong>
+    <a class="home-contact-card" href="https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en&oi=ao" target="_blank">
+      <span class="home-contact-card__icon" aria-hidden="true"><i class="ai ai-google-scholar"></i></span>
+      <span class="home-contact-card__label">Google Scholar</span>
+      <strong>Publication profile</strong>
     </a>
     <a class="home-contact-card" href="https://x.com/jwhansnu" target="_blank">
+      <span class="home-contact-card__icon" aria-hidden="true"><i class="fa-brands fa-x-twitter"></i></span>
       <span class="home-contact-card__label">X</span>
       <strong>@jwhansnu</strong>
     </a>
