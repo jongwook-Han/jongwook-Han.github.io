@@ -32,12 +32,27 @@ social: true # includes social icons at the bottom of the page
   <p class="home-kicker">Pluralistic value alignment, psychometric evaluation, and LLM behavior</p>
   <div class="home-lead">
     <p>I'm a PhD student at Seoul National University, where I work with <a href="https://yohanjo.github.io/" target="_blank">Prof. Yohan Jo</a> on how language models represent, express, and can be aligned with diverse human values.</p>
-    <p>My recent work studies pluralistic value alignment, contamination in psychometric evaluation, and the difference between prompted and intrinsic value expression in LLMs.</p>
+    <p>My recent work studies pluralistic value alignment, contamination in psychometric evaluation, and robust ways to measure value expression in language models.</p>
   </div>
   <div class="home-actions">
     <a class="home-button" href="{{ '/publications/' | relative_url }}">View publications</a>
     <a class="home-button home-button-secondary" href="https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
     <a class="home-button home-button-secondary" href="mailto:johnhan00@snu.ac.kr">Email</a>
+    <a class="home-button home-button-secondary" href="https://x.com/jwhansnu" target="_blank">X / @jwhansnu</a>
+  </div>
+  <div class="home-signal-grid">
+    <div class="home-signal">
+      <span class="home-signal__label">Current</span>
+      <strong class="home-signal__value">PhD Student at Seoul National University</strong>
+    </div>
+    <div class="home-signal">
+      <span class="home-signal__label">Focus</span>
+      <strong class="home-signal__value">Pluralistic value alignment and LLM evaluation</strong>
+    </div>
+    <div class="home-signal">
+      <span class="home-signal__label">Updates</span>
+      <a class="home-signal__link" href="https://x.com/jwhansnu" target="_blank">@jwhansnu on X</a>
+    </div>
   </div>
 </section>
 
@@ -47,7 +62,6 @@ social: true # includes social icons at the bottom of the page
     <ul class="home-list">
       <li>Pluralistic value alignment for language models</li>
       <li>Psychometric and behavioral evaluation of LLMs</li>
-      <li>Prompted versus intrinsic value expression in LLMs</li>
     </ul>
   </section>
   <section class="home-panel">
