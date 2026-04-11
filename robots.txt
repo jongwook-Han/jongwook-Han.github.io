@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jongwook-Han.github.io/sitemap.xml
+Sitemap: https://jongwook-han.github.io/sitemap.xml
