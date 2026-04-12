@@ -75,7 +75,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
 google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
+pirsch_analytics: uajr8hjjPlfzkUiWFfHTKyVhNsnA9WWF # your Pirsch analytics site ID (length 32 characters)
 pirsch_dashboard_url: https://dashboard.pirsch.io/
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
