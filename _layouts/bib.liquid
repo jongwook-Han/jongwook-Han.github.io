@@ -160,10 +160,15 @@
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
+    {% assign entrytype_text = entrytype | strip_html | strip %}
+    {% assign venue_includes_year = false %}
+    {% if entrytype_text != "" and entry.year and entrytype_text contains entry.year %}
+      {% assign venue_includes_year = true %}
+    {% endif %}
     {% if entry.month %}
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
-    {% if entry.year %}
+    {% if entry.year and venue_includes_year == false %}
       {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
     {% endif %}
     {% if entry.location %}
