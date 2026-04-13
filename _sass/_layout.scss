@@ -104,7 +104,7 @@ body .navbar {
     order: 2;
     float: none !important;
     margin: 0 !important;
-    width: min(100%, 24rem);
+    width: min(100%, 22rem);
     justify-self: center;
     padding: 0.7rem;
     border: 1px solid var(--global-divider-color);
@@ -482,7 +482,7 @@ body .navbar {
 @media (min-width: 992px) {
   .about-page {
     .about-shell {
-      grid-template-columns: minmax(0, 1fr) minmax(290px, 330px);
+      grid-template-columns: minmax(0, 1fr) minmax(270px, 305px);
     }
 
     .post-header {
@@ -494,7 +494,7 @@ body .navbar {
       grid-column: 2;
       grid-row: 1;
       width: 100%;
-      max-width: 330px;
+      max-width: 305px;
       justify-self: end;
       position: static;
     }
