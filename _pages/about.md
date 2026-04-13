@@ -81,22 +81,21 @@ social: true # includes social icons at the bottom of the page
 </div>
 
 <section class="home-section">
-  <h2>Recent Work</h2>
-  <div class="home-highlights">
-    <article class="home-highlight">
-      <span class="home-highlight__meta">ACL 2026</span>
-      <h3>Tool use without over-adapting small language models</h3>
-      <p>Studied how adapting tool schemas to model behavior can outperform directly adapting small language models for tool use.</p>
-    </article>
-    <article class="home-highlight">
-      <span class="home-highlight__meta">EACL Findings 2026</span>
-      <h3>Contamination in psychometric LLM evaluation</h3>
-      <p>Quantified how data contamination can distort psychometric evaluations of language models and their reported psychological traits.</p>
-    </article>
-    <article class="home-highlight">
+  <h2>Representative Work</h2>
+  <div class="home-highlights home-highlights-featured">
+    <article class="home-highlight home-highlight-featured">
       <span class="home-highlight__meta">ACL 2025</span>
       <h3>Value Portrait</h3>
-      <p>Introduced a psychometrically grounded framework for assessing language model values with ecologically valid items.</p>
+      <p>Introduces a psychometrically validated benchmark built from real user-LLM interactions, making value assessment more reliable and ecologically grounded than annotation-heavy alternatives.</p>
+      <p class="home-highlight__note">Across 44 language models, it shows consistent emphasis on Benevolence, Security, and Self-Direction, while also surfacing demographic biases in how models express values.</p>
+      <a class="home-highlight__link" href="https://aclanthology.org/2025.acl-long.838/" target="_blank">Read paper</a>
+    </article>
+    <article class="home-highlight home-highlight-featured">
+      <span class="home-highlight__meta">Working Paper</span>
+      <h3>Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in LLMs</h3>
+      <p>Separates intrinsic value expression from prompted value expression and studies them mechanistically through value vectors in the residual stream and value neurons in the MLP layers.</p>
+      <p class="home-highlight__note">The analysis shows that the two mechanisms partly overlap but diverge in practice: prompted values are more steerable, while intrinsic values preserve greater response diversity.</p>
+      <a class="home-highlight__link" href="https://arxiv.org/abs/2509.24319" target="_blank">Read paper</a>
     </article>
   </div>
 </section>

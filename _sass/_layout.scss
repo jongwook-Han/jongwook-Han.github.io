@@ -333,9 +333,29 @@ body .navbar {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.home-highlights-featured {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.home-highlight {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
 .home-highlight h3 {
-  margin: 0.4rem 0 0.7rem;
+  margin: 0.2rem 0 0;
   font-size: 1.15rem;
+}
+
+.home-highlight p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.home-highlight-featured {
+  background:
+    linear-gradient(180deg, var(--global-card-bg-color) 0%, var(--global-surface-muted) 100%);
 }
 
 .home-highlight__meta {
@@ -344,6 +364,29 @@ body .navbar {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.home-highlight__note {
+  color: var(--global-text-color-light);
+}
+
+.home-highlight__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 0.55rem 0.95rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  color: var(--global-theme-color) !important;
+  font-weight: 700;
+  text-decoration: none !important;
+  background: rgba(15, 118, 110, 0.06);
+
+  &:hover {
+    background: rgba(15, 118, 110, 0.12);
+  }
 }
 
 .home-contact-grid {
