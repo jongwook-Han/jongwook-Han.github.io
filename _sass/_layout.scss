@@ -86,15 +86,27 @@ body .navbar {
     align-items: start;
   }
 
+  .post-header {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 0;
+  }
+
   .about-content {
+    grid-column: 1;
+    grid-row: 3;
     min-width: 0;
   }
 
   .profile {
+    grid-column: 1;
+    grid-row: 2;
     order: 2;
     float: none !important;
     margin: 0 !important;
-    padding: 0.85rem;
+    width: min(100%, 24rem);
+    justify-self: center;
+    padding: 0.7rem;
     border: 1px solid var(--global-divider-color);
     border-radius: 1.6rem;
     background: var(--global-card-bg-color);
@@ -470,14 +482,21 @@ body .navbar {
 @media (min-width: 992px) {
   .about-page {
     .about-shell {
-      grid-template-columns: minmax(0, 1fr) minmax(340px, 390px);
+      grid-template-columns: minmax(0, 1fr) minmax(290px, 330px);
+    }
+
+    .post-header {
+      align-self: center;
+      padding-right: 0.5rem;
     }
 
     .profile {
       grid-column: 2;
       grid-row: 1;
-      position: sticky;
-      top: 86px;
+      width: 100%;
+      max-width: 330px;
+      justify-self: end;
+      position: static;
     }
 
     .about-content {
@@ -485,8 +504,8 @@ body .navbar {
     }
 
     .about-content > .home-hero {
-      grid-column: 1;
-      grid-row: 1;
+      grid-column: 1 / -1;
+      grid-row: 2;
     }
 
     .about-content > .home-panels,

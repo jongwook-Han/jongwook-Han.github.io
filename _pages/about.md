@@ -8,9 +8,6 @@ profile:
   align: right
   image: han_picture.jpeg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p class="profile-advisor">Advised by <a href="https://yohanjo.github.io/" target="_blank">Prof. Yohan Jo</a></p>
-    <p class="profile-location">Seoul, South Korea</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
