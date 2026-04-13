@@ -4,10 +4,7 @@ title: about
 permalink: /
 subtitle: PhD Student, Graduate School of Data Science, Seoul National University
 
-profile:
-  align: right
-  image: han_picture.jpeg
-  image_circular: false # crops the image to make it circular
+profile: false
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

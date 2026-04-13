@@ -94,8 +94,12 @@ body .navbar {
 
   .about-content {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 2;
     min-width: 0;
+  }
+
+  &.has-profile .about-content {
+    grid-row: 3;
   }
 
   .profile {
@@ -482,15 +486,23 @@ body .navbar {
 @media (min-width: 992px) {
   .about-page {
     .about-shell {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    &.has-profile .about-shell {
       grid-template-columns: minmax(0, 1fr) minmax(270px, 305px);
     }
 
-    .post-header {
+    .about-content {
+      display: contents;
+    }
+
+    &.has-profile .post-header {
       align-self: center;
       padding-right: 0.5rem;
     }
 
-    .profile {
+    &.has-profile .profile {
       grid-column: 2;
       grid-row: 1;
       width: 100%;
@@ -499,17 +511,13 @@ body .navbar {
       position: static;
     }
 
-    .about-content {
-      display: contents;
-    }
-
-    .about-content > .home-hero {
+    &.has-profile .about-content > .home-hero {
       grid-column: 1 / -1;
       grid-row: 2;
     }
 
-    .about-content > .home-panels,
-    .about-content > .home-section {
+    &.has-profile .about-content > .home-panels,
+    &.has-profile .about-content > .home-section {
       grid-column: 1 / -1;
     }
   }
