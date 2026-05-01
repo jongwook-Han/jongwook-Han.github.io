@@ -85,7 +85,7 @@ social: true # includes social icons at the bottom of the page
       <a class="home-highlight__link" href="https://aclanthology.org/2025.acl-long.838/" target="_blank">Read paper</a>
     </article>
     <article class="home-highlight home-highlight-featured">
-      <span class="home-highlight__meta">Working Paper</span>
+      <span class="home-highlight__meta">ICML 2026</span>
       <h3>Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in LLMs</h3>
       <p>Separates intrinsic value expression from prompted value expression and studies them mechanistically through value vectors in the residual stream and value neurons in the MLP layers.</p>
       <p class="home-highlight__note">The analysis shows that the two mechanisms partly overlap but diverge in practice: prompted values are more steerable, while intrinsic values preserve greater response diversity.</p>

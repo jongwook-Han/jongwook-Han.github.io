@@ -6,6 +6,10 @@
   url: https://aclanthology.org/venues/eacl/
   color: "#155e75"
 
+"ICML":
+  url: https://icml.cc/
+  color: "#2563eb"
+
 "NeurIPS WS":
   url: https://neurips.cc/
   color: "#7c3f00"
