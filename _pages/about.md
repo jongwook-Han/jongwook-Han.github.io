@@ -9,6 +9,13 @@ profile: false
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
+academic_service:
+  - role: Silver Reviewer
+    venue: ICML 2026
+  - role: Registration Chair Assistant
+    venue: Festival of Learning 2026
+    url: https://festival-of-learning-2026.info/
+
 # announcements:
 #   enabled: true # includes a list of news items
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
