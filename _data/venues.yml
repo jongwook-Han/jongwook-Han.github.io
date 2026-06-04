@@ -10,6 +10,10 @@
   url: https://icml.cc/
   color: "#2563eb"
 
+"ICML WS":
+  url: https://icml.cc/
+  color: "#1d4ed8"
+
 "NeurIPS WS":
   url: https://neurips.cc/
   color: "#7c3f00"

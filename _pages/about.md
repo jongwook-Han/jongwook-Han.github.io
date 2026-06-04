@@ -27,10 +27,10 @@ academic_service:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 <section class="home-hero">
-  <p class="home-kicker">Pluralistic value alignment, psychometric evaluation, and LLM behavior</p>
+  <p class="home-kicker">Human values in robots and language models</p>
   <div class="home-lead">
-    <p>I'm a PhD student at Seoul National University, where I work with <a href="https://yohanjo.github.io/" target="_blank">Prof. Yohan Jo</a> on how language models represent, express, and can be aligned with diverse human values.</p>
-    <p>My recent work studies pluralistic value alignment, contamination in psychometric evaluation, and robust ways to measure value expression in language models.</p>
+    <p>I'm a PhD student at Seoul National University, where I work with <a href="https://yohanjo.github.io/" target="_blank">Prof. Yohan Jo</a> on how robots and language models can incorporate diverse human values.</p>
+    <p>My recent work studies how household robots can incorporate diverse human values.</p>
   </div>
   <div class="home-actions">
     <a class="home-button" href="{{ '/publications/' | relative_url }}">View publications</a>
@@ -54,7 +54,7 @@ academic_service:
     </div>
     <div class="home-signal">
       <span class="home-signal__label">Focus</span>
-      <strong class="home-signal__value">Value alignment, evaluation, and behavior in LLMs</strong>
+      <strong class="home-signal__value">Incorporating human values into robots and LLMs</strong>
     </div>
     <div class="home-signal">
       <span class="home-signal__label">Base</span>
@@ -67,7 +67,7 @@ academic_service:
   <section class="home-panel">
     <h2>Research Focus</h2>
     <ul class="home-list">
-      <li>Pluralistic value alignment for language models</li>
+      <li>Making robots consider human values</li>
       <li>Psychometric and behavioral evaluation of LLMs</li>
     </ul>
   </section>
@@ -85,18 +85,18 @@ academic_service:
   <h2>Representative Work</h2>
   <div class="home-highlights home-highlights-featured">
     <article class="home-highlight home-highlight-featured">
+      <span class="home-highlight__meta">ICML 2026 Workshop</span>
+      <h3>RobotValues</h3>
+      <p>Evaluates household robots in situations where human values conflict, focusing on how robotic systems should incorporate diverse human values in everyday decision-making.</p>
+      <p class="home-highlight__note">Moves beyond task completion and safety by measuring whether robots consider human values when making household decisions.</p>
+      <a class="home-highlight__link" href="https://arxiv.org/abs/2606.03312" target="_blank">Read paper</a>
+    </article>
+    <article class="home-highlight home-highlight-featured">
       <span class="home-highlight__meta">ACL 2025</span>
       <h3>Value Portrait</h3>
       <p>Introduces a psychometrically validated benchmark built from real user-LLM interactions, making value assessment more reliable and ecologically grounded than annotation-heavy alternatives.</p>
       <p class="home-highlight__note">Across 44 language models, it shows consistent emphasis on Benevolence, Security, and Self-Direction, while also surfacing demographic biases in how models express values.</p>
       <a class="home-highlight__link" href="https://aclanthology.org/2025.acl-long.838/" target="_blank">Read paper</a>
-    </article>
-    <article class="home-highlight home-highlight-featured">
-      <span class="home-highlight__meta">ICML 2026</span>
-      <h3>Dual Mechanisms of Value Expression: Intrinsic vs. Prompted Values in LLMs</h3>
-      <p>Separates intrinsic value expression from prompted value expression and studies them mechanistically through value vectors in the residual stream and value neurons in the MLP layers.</p>
-      <p class="home-highlight__note">The analysis shows that the two mechanisms partly overlap but diverge in practice: prompted values are more steerable, while intrinsic values preserve greater response diversity.</p>
-      <a class="home-highlight__link" href="https://arxiv.org/abs/2509.24319" target="_blank">Read paper</a>
     </article>
   </div>
 </section>
