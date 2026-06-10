@@ -13,6 +13,12 @@ layout: default
             {{ site.title }}
           {% endif %}
         </h1>
+        {% if page.permalink == '/' and site.enable_darkmode %}
+          <button class="home-theme-toggle" type="button" title="Toggle dark mode" aria-label="Toggle dark mode" data-theme-toggle>
+            <i class="ti ti-moon-filled home-theme-toggle__icon home-theme-toggle__icon--dark" aria-hidden="true"></i>
+            <i class="ti ti-sun-filled home-theme-toggle__icon home-theme-toggle__icon--light" aria-hidden="true"></i>
+          </button>
+        {% endif %}
         {% if page.home_links %}
           <nav class="home-links" aria-label="Profile links">
             {% for link in page.home_links %}

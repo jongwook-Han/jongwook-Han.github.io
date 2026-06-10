@@ -173,12 +173,59 @@ body.home-page {
   }
 
   .post-header {
+    position: relative;
     margin-bottom: 2.5rem;
+    padding-right: 3rem;
   }
 
   .post-title {
     font-size: 2rem;
   }
+}
+
+.home-theme-toggle {
+  position: absolute;
+  top: 0.05rem;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.05rem;
+  height: 2.05rem;
+  padding: 0;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 50%;
+  color: var(--global-text-color-light);
+  background: transparent;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 3px;
+  }
+}
+
+.home-theme-toggle__icon {
+  display: none;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+:root .home-theme-toggle__icon--light {
+  display: block;
+}
+
+html[data-theme-setting="dark"] .home-theme-toggle__icon--dark {
+  display: block;
+}
+
+html[data-theme-setting="dark"] .home-theme-toggle__icon--light {
+  display: none;
 }
 
 .home-links {
