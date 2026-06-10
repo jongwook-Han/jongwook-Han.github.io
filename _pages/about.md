@@ -2,12 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, Graduate School of Data Science, Seoul National University
+subtitle: Ph.D. student, Graduate School of Data Science, Seoul National University
 
 profile: false
 
+home_links:
+  - label: Email
+    url: mailto:johnhan00@snu.ac.kr
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en&oi=ao
+  - label: X
+    url: https://x.com/jwhansnu
+  - label: Publications
+    url: /publications/
+  - label: CV
+    url: /assets/pdf/Jongwook_Han_CV.pdf
+
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false
 
 academic_service:
   - role: Silver Reviewer
@@ -19,105 +31,62 @@ academic_service:
 # announcements:
 #   enabled: true # includes a list of news items
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-#   limit: 5 # leave blank to include all the news in the `_news` folder
+#   limit: 5 # leave blank to include all the `_news` folder
 
 # latest_posts:
 #   enabled: true
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
-<section class="home-hero">
-  <p class="home-kicker">Human values in robots and language models</p>
-  <div class="home-lead">
-    <p>I'm a PhD student at Seoul National University, where I work with <a href="https://yohanjo.github.io/" target="_blank">Prof. Yohan Jo</a> on how robots and language models can incorporate diverse human values.</p>
-    <p>My recent work studies how household robots can incorporate diverse human values.</p>
+<section id="about" class="home-about">
+  <div class="home-about__copy">
+    <p>
+      I am a Ph.D. student in the
+      <a href="https://gsds.snu.ac.kr/" target="_blank" rel="noopener noreferrer">Graduate School of Data Science</a>
+      at <a href="https://www.snu.ac.kr/" target="_blank" rel="noopener noreferrer">Seoul National University</a>,
+      advised by <a href="https://yohanjo.github.io/" target="_blank" rel="noopener noreferrer">Prof. Yohan Jo</a>
+      in the Human-Oriented Language Intelligence (HOLI) Lab.
+    </p>
+    <p>
+      My research centers on pluralistic value alignment: how robots and language models can recognize,
+      reason about, and respect diverse human values in everyday settings.
+    </p>
   </div>
-  <div class="home-actions">
-    <a class="home-button" href="{{ '/publications/' | relative_url }}">View publications</a>
-    <a class="home-button home-button-secondary home-button-icon" href="mailto:johnhan00@snu.ac.kr" aria-label="Email">
-      <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-      <span>Email</span>
-    </a>
-    <a class="home-button home-button-secondary home-button-icon" href="https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en&oi=ao" target="_blank" aria-label="Google Scholar">
-      <i class="ai ai-google-scholar" aria-hidden="true"></i>
-      <span>Scholar</span>
-    </a>
-    <a class="home-button home-button-secondary home-button-icon" href="https://x.com/jwhansnu" target="_blank" aria-label="X">
-      <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-      <span>X</span>
-    </a>
-  </div>
-  <div class="home-signal-grid">
-    <div class="home-signal">
-      <span class="home-signal__label">Current</span>
-      <strong class="home-signal__value">HOLI Lab, Graduate School of Data Science, Seoul National University</strong>
-    </div>
-    <div class="home-signal">
-      <span class="home-signal__label">Focus</span>
-      <strong class="home-signal__value">Incorporating human values into robots and LLMs</strong>
-    </div>
-    <div class="home-signal">
-      <span class="home-signal__label">Base</span>
-      <strong class="home-signal__value">Seoul, South Korea</strong>
-    </div>
-  </div>
+  <figure class="home-portrait">
+    <img src="{{ '/assets/img/han_portrait.jpg' | relative_url }}" alt="Jongwook Han">
+  </figure>
 </section>
 
-<div class="home-panels">
-  <section class="home-panel">
-    <h2>Research Focus</h2>
-    <ul class="home-list">
-      <li>Making robots consider human values</li>
-      <li>Psychometric and behavioral evaluation of LLMs</li>
-    </ul>
-  </section>
-  <section class="home-panel">
-    <h2>Background</h2>
-    <ul class="home-list">
-      <li>PhD student, Seoul National University</li>
-      <li>M.S. in Electrical Engineering, KAIST</li>
-      <li>B.S. in Integrated Technology, Yonsei University</li>
-    </ul>
-  </section>
-</div>
-
-<section class="home-section">
-  <h2>Representative Work</h2>
-  <div class="home-highlights home-highlights-featured">
-    <article class="home-highlight home-highlight-featured">
-      <span class="home-highlight__meta">ICML 2026 Workshop</span>
-      <h3>RobotValues</h3>
-      <p>Evaluates household robots in situations where human values conflict, focusing on how robotic systems should incorporate diverse human values in everyday decision-making.</p>
-      <p class="home-highlight__note">Moves beyond task completion and safety by measuring whether robots consider human values when making household decisions.</p>
-      <a class="home-highlight__link" href="https://arxiv.org/abs/2606.03312" target="_blank">Read paper</a>
-    </article>
-    <article class="home-highlight home-highlight-featured">
-      <span class="home-highlight__meta">ACL 2025</span>
-      <h3>Value Portrait</h3>
-      <p>Introduces a psychometrically validated benchmark built from real user-LLM interactions, making value assessment more reliable and ecologically grounded than annotation-heavy alternatives.</p>
-      <p class="home-highlight__note">Across 44 language models, it shows consistent emphasis on Benevolence, Security, and Self-Direction, while also surfacing demographic biases in how models express values.</p>
-      <a class="home-highlight__link" href="https://aclanthology.org/2025.acl-long.838/" target="_blank">Read paper</a>
-    </article>
-  </div>
+<section id="research" class="home-section">
+  <h2>Research</h2>
+  <ul class="home-list">
+    <li>Household robot evaluation when human values conflict</li>
+    <li>Psychometric and behavioral evaluation of large language models</li>
+    <li>Pluralistic value alignment for human-facing AI systems</li>
+  </ul>
 </section>
 
-<section class="home-section">
-  <h2>Contact</h2>
-  <div class="home-contact-grid">
-    <a class="home-contact-card" href="mailto:johnhan00@snu.ac.kr">
-      <span class="home-contact-card__icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></span>
-      <span class="home-contact-card__label">Email</span>
-      <strong>johnhan00@snu.ac.kr</strong>
-    </a>
-    <a class="home-contact-card" href="https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en&oi=ao" target="_blank">
-      <span class="home-contact-card__icon" aria-hidden="true"><i class="ai ai-google-scholar"></i></span>
-      <span class="home-contact-card__label">Google Scholar</span>
-      <strong>Publication profile</strong>
-    </a>
-    <a class="home-contact-card" href="https://x.com/jwhansnu" target="_blank">
-      <span class="home-contact-card__icon" aria-hidden="true"><i class="fa-brands fa-x-twitter"></i></span>
-      <span class="home-contact-card__label">X</span>
-      <strong>@jwhansnu</strong>
-    </a>
-  </div>
+<section id="background" class="home-section">
+  <h2>Background</h2>
+  <ul class="home-entries">
+    <li>
+      <div class="home-entry">
+        <span class="what"><strong>Seoul National University</strong><br>
+          <span class="sub">Ph.D. student, Graduate School of Data Science</span></span>
+        <span class="when">Present</span>
+      </div>
+    </li>
+    <li>
+      <div class="home-entry">
+        <span class="what"><strong>KAIST</strong><br>
+          <span class="sub">M.S. in Electrical Engineering</span></span>
+      </div>
+    </li>
+    <li>
+      <div class="home-entry">
+        <span class="what"><strong>Yonsei University</strong><br>
+          <span class="sub">B.S. in Integrated Technology</span></span>
+      </div>
+    </li>
+  </ul>
 </section>

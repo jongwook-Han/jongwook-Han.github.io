@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="post">
-  <article class="about-page{% if page.profile and page.profile.image %} has-profile{% endif %}">
+  <article class="about-page{% if page.permalink == '/' %} is-home{% endif %}{% if page.profile and page.profile.image %} has-profile{% endif %}">
     <div class="about-shell">
       <header class="post-header">
         <h1 class="post-title">
@@ -13,7 +13,25 @@ layout: default
             {{ site.title }}
           {% endif %}
         </h1>
-        <p class="desc">{{ page.subtitle }}</p>
+        {% if page.home_links %}
+          <nav class="home-links" aria-label="Profile links">
+            {% for link in page.home_links %}
+              {% assign link_url = link.url %}
+              <a
+                href="{% if link_url contains '://' or link_url contains 'mailto:' %}{{ link_url }}{% else %}{{ link_url | relative_url }}{% endif %}"
+                {% if link_url contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}
+              >
+                {{- link.label -}}
+              </a>
+              {% unless forloop.last %}
+                <span class="sep" aria-hidden="true">&middot;</span>
+              {% endunless %}
+            {% endfor %}
+          </nav>
+        {% endif %}
+        {% if page.subtitle %}
+          <p class="desc">{{ page.subtitle }}</p>
+        {% endif %}
       </header>
       {% if page.profile %}
         <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
