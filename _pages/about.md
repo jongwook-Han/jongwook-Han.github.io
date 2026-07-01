@@ -11,6 +11,8 @@ home_links:
     url: mailto:johnhan00@snu.ac.kr
   - label: Google Scholar
     url: https://scholar.google.com/citations?user=eAeLn3gAAAAJ&hl=en&oi=ao
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/jongwook-han-05925a167/
   - label: X
     url: https://x.com/jwhansnu
   - label: Publications
