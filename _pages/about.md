@@ -23,10 +23,27 @@ home_links:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false
 
+awards:
+  - name: Nebius AI Research Grant
+    detail: $6,000 in compute credits, Nebius
+    year: 2026
+  - name: AI Star Scholarship
+    detail: Yulchon Foundation
+    year: 2026
+  - name: National Science and Technology Scholarship
+    detail: Korean Student Aid Foundation (KOSAF)
+    year: 2021
+  - name: Undergraduate Scholarship
+    detail: Yonsei University, until military service
+    year: 2017–2018
+
 academic_service:
   - role: Silver Reviewer
-    venue: ICML 2026
-  - role: Registration Chair Assistant
+    venue: ICML
+    year: 2026
+  - role: Reviewer
+    venue: NeurIPS, ICML, ICLR, CoRL, ARR
+  - role: Organizing Committee
     venue: Festival of Learning 2026
     url: https://festival-of-learning-2026.info/
 
@@ -43,10 +60,7 @@ academic_service:
 <section id="about" class="home-about">
   <div class="home-about__copy">
     <p>
-      I am a Ph.D. student in the
-      <a href="https://gsds.snu.ac.kr/" target="_blank" rel="noopener noreferrer">Graduate School of Data Science</a>
-      at <a href="https://www.snu.ac.kr/" target="_blank" rel="noopener noreferrer">Seoul National University</a>,
-      advised by <a href="https://yohanjo.github.io/" target="_blank" rel="noopener noreferrer">Prof. Yohan Jo</a>
+      I am advised by <a href="https://yohanjo.github.io/" target="_blank" rel="noopener noreferrer">Prof. Yohan Jo</a>
       in the Human-Oriented Language Intelligence (HOLI) Lab.
     </p>
     <p>
@@ -62,7 +76,7 @@ academic_service:
 <section id="research" class="home-section">
   <h2>Research</h2>
   <ul class="home-list">
-    <li>Household robot evaluation when human values conflict</li>
+    <li>Household robot evaluation beyond task success</li>
     <li>Psychometric and behavioral evaluation of large language models</li>
     <li>Pluralistic value alignment for human-facing AI systems</li>
   </ul>

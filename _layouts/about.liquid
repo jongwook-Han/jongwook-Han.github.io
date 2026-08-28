@@ -87,18 +87,44 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    {% if page.awards %}
+      <section class="home-section awards">
+        <h2>Awards</h2>
+        <ul class="home-entries">
+          {% for award in page.awards %}
+            <li>
+              <div class="home-entry">
+                <span class="what">
+                  <strong>{{ award.name }}</strong>
+                  {% if award.detail %}<br><span class="sub">{{ award.detail }}</span>{% endif %}
+                </span>
+                {% if award.year %}<span class="when">{{ award.year }}</span>{% endif %}
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
     {% if page.academic_service %}
-      <section class="academic-service">
+      <section class="home-section academic-service">
         <h2>Academic Service</h2>
-        <ul>
+        <ul class="home-entries">
           {% for service in page.academic_service %}
             <li>
-              {{ service.role }},
-              {% if service.url %}
-                <a href="{{ service.url }}" target="_blank" rel="noopener noreferrer">{{ service.venue }}</a>
-              {% else %}
-                {{ service.venue }}
-              {% endif %}
+              <div class="home-entry">
+                <span class="what">
+                  <strong>{{ service.role }}</strong><br>
+                  <span class="sub">
+                    {% if service.url %}
+                      <a href="{{ service.url }}" target="_blank" rel="noopener noreferrer">{{ service.venue }}</a>
+                    {% else %}
+                      {{ service.venue }}
+                    {% endif %}
+                  </span>
+                </span>
+                {% if service.year %}<span class="when">{{ service.year }}</span>{% endif %}
+              </div>
             </li>
           {% endfor %}
         </ul>
